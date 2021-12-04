@@ -1,1 +1,7 @@
-#lol ดูไร
+<?php
+$keys = ["ADFDGH", "SERVFS", "PKSCFP-SPFOE"];
+if (in_array($_GET['k'], $keys)
+die("good");
+else
+die;
+?>
